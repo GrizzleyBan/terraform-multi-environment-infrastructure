@@ -8,12 +8,12 @@ terraform {
     }
   }
 
-cloud {
-  organization = "grizzleyban-terraform"
+  cloud {
+    organization = "grizzleyban-terraform"
 
-  workspaces {
-    name = "capstone-staging"
+    workspaces {
+      name = "capstone-staging"
+    }
   }
-}
 }
 provider "docker" {}
