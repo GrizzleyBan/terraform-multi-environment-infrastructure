@@ -27,7 +27,7 @@ terraform-multi-environment-infrastructure/
 
 Each environment uses the same Terraform modules but maintains its own configuration and state.
 
-## Technologies Used
+## Technologies I Used
 
 - Terraform — Infrastructure as Code
 - Docker — Container runtime
