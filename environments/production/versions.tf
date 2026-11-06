@@ -7,6 +7,13 @@ terraform {
       version = "~> 4.2.0"
     }
   }
+  cloud {
+    organization = "grizzleyban-terraform"
+
+    workspaces {
+      name = "capstone-production"
+    }
+  }
 }
 
 provider "docker" {}
